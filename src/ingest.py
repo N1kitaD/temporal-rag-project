@@ -1,3 +1,4 @@
+#Pulling articles from wikipedia using the MediaWiki API. This script fetches articles from specified categories and standalone titles, extracts their text and revision dates, and saves them in a structured JSON format.
 import requests
 import json
 import time
