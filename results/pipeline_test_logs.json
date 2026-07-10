@@ -1,0 +1,362 @@
+[
+  {
+    "question": "What is the boiling point of water?",
+    "timestamp": "2026-07-11 02:48:08",
+    "retrieved_count": 20,
+    "top3_before_rerank": [
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.7439,
+        "topic_type": "static"
+      },
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.6328,
+        "topic_type": "static"
+      },
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.603,
+        "topic_type": "static"
+      }
+    ],
+    "query_type": "STATIC",
+    "p_dynamic": 0.0,
+    "top5_after_rerank": [
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.7439086437225342,
+        "freshness_score": 0.9659,
+        "final_score": 0.7439,
+        "topic_type": "static"
+      },
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.6328223347663879,
+        "freshness_score": 0.9659,
+        "final_score": 0.6328,
+        "topic_type": "static"
+      },
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.6030226945877075,
+        "freshness_score": 0.9659,
+        "final_score": 0.603,
+        "topic_type": "static"
+      },
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.6024134159088135,
+        "freshness_score": 0.9659,
+        "final_score": 0.6024,
+        "topic_type": "static"
+      },
+      {
+        "title": "Boiling point",
+        "date": "2026-07-01",
+        "cosine_score": 0.5851078033447266,
+        "freshness_score": 0.9659,
+        "final_score": 0.5851,
+        "topic_type": "static"
+      }
+    ],
+    "answer": "The boiling point of water is 100 °C, rounded from a scientific precision of 99.97 °C. This is equivalent to 211.95 °F or 211.9 °F, depending on the document.",
+    "expected_type": "STATIC",
+    "type_correct": true
+  },
+  {
+    "question": "When did India gain independence?",
+    "timestamp": "2026-07-11 02:48:10",
+    "retrieved_count": 20,
+    "top3_before_rerank": [
+      {
+        "title": "Indian independence movement",
+        "date": "2026-06-06",
+        "cosine_score": 0.5864,
+        "topic_type": "static"
+      },
+      {
+        "title": "Indian independence movement",
+        "date": "2026-06-06",
+        "cosine_score": 0.5823,
+        "topic_type": "static"
+      },
+      {
+        "title": "Partition of India",
+        "date": "2026-06-22",
+        "cosine_score": 0.5784,
+        "topic_type": "static"
+      }
+    ],
+    "query_type": "STATIC",
+    "p_dynamic": 0.0,
+    "top5_after_rerank": [
+      {
+        "title": "Indian independence movement",
+        "date": "2026-06-06",
+        "cosine_score": 0.5864264965057373,
+        "freshness_score": 0.8773,
+        "final_score": 0.5864,
+        "topic_type": "static"
+      },
+      {
+        "title": "Indian independence movement",
+        "date": "2026-06-06",
+        "cosine_score": 0.5823101997375488,
+        "freshness_score": 0.8773,
+        "final_score": 0.5823,
+        "topic_type": "static"
+      },
+      {
+        "title": "Partition of India",
+        "date": "2026-06-22",
+        "cosine_score": 0.5783947706222534,
+        "freshness_score": 0.933,
+        "final_score": 0.5784,
+        "topic_type": "static"
+      },
+      {
+        "title": "Jawaharlal Nehru",
+        "date": "2026-06-19",
+        "cosine_score": 0.5674927234649658,
+        "freshness_score": 0.9259,
+        "final_score": 0.5675,
+        "topic_type": "static"
+      },
+      {
+        "title": "Jawaharlal Nehru",
+        "date": "2026-06-19",
+        "cosine_score": 0.5610190629959106,
+        "freshness_score": 0.9259,
+        "final_score": 0.561,
+        "topic_type": "static"
+      }
+    ],
+    "answer": "The Indian independence movement took place from the mid-1880s to 1947, with the aim of ending British colonial rule. India gained independence in 1947, as mentioned in the context of the partition of India.",
+    "expected_type": "STATIC",
+    "type_correct": true
+  },
+  {
+    "question": "Who is the current Chief Minister of Assam?",
+    "timestamp": "2026-07-11 02:48:13",
+    "retrieved_count": 20,
+    "top3_before_rerank": [
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.7182,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.6417,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Uttar Pradesh",
+        "date": "2026-06-27",
+        "cosine_score": 0.6413,
+        "topic_type": "dynamic"
+      }
+    ],
+    "query_type": "DYNAMIC_CURRENT",
+    "p_dynamic": 1.0,
+    "top5_after_rerank": [
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.7181864976882935,
+        "freshness_score": 0.9809,
+        "final_score": 0.797,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.641707181930542,
+        "freshness_score": 0.9809,
+        "final_score": 0.7435,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Uttar Pradesh",
+        "date": "2026-06-27",
+        "cosine_score": 0.6412902474403381,
+        "freshness_score": 0.9512,
+        "final_score": 0.7343,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.6218569278717041,
+        "freshness_score": 0.9809,
+        "final_score": 0.7296,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Karnataka",
+        "date": "2026-07-04",
+        "cosine_score": 0.6087502837181091,
+        "freshness_score": 0.9772,
+        "final_score": 0.7193,
+        "topic_type": "dynamic"
+      }
+    ],
+    "answer": "Biswa Sarma was announced as the 15th chief minister of Assam.",
+    "expected_type": "DYNAMIC_CURRENT",
+    "type_correct": true
+  },
+  {
+    "question": "Who is the Prime Minister of India?",
+    "timestamp": "2026-07-11 02:48:16",
+    "retrieved_count": 20,
+    "top3_before_rerank": [
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6696,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6686,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6329,
+        "topic_type": "dynamic"
+      }
+    ],
+    "query_type": "DYNAMIC_CURRENT",
+    "p_dynamic": 1.0,
+    "top5_after_rerank": [
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6695592999458313,
+        "freshness_score": 0.9622,
+        "final_score": 0.7574,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6685794591903687,
+        "freshness_score": 0.9622,
+        "final_score": 0.7567,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6328890323638916,
+        "freshness_score": 0.9622,
+        "final_score": 0.7317,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6256421804428101,
+        "freshness_score": 0.9622,
+        "final_score": 0.7266,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.6210529208183289,
+        "freshness_score": 0.9622,
+        "final_score": 0.7234,
+        "topic_type": "dynamic"
+      }
+    ],
+    "answer": "The current Prime Minister of India is Narendra Modi, who has been serving since 26 May 2014. He is the first non-Congress leader to become PM after consecutive general elections and secure a third successive term.",
+    "expected_type": "DYNAMIC_CURRENT",
+    "type_correct": true
+  },
+  {
+    "question": "Who was the Chief Minister of Assam in 2016?",
+    "timestamp": "2026-07-11 02:48:18",
+    "retrieved_count": 20,
+    "top3_before_rerank": [
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.7106,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.6704,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.6302,
+        "topic_type": "dynamic"
+      }
+    ],
+    "query_type": "DYNAMIC_HISTORICAL",
+    "p_dynamic": 0.0,
+    "top5_after_rerank": [
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.7105830907821655,
+        "freshness_score": 0.9809,
+        "final_score": 0.7106,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.670380711555481,
+        "freshness_score": 0.9809,
+        "final_score": 0.6704,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Assam",
+        "date": "2026-07-05",
+        "cosine_score": 0.6302027702331543,
+        "freshness_score": 0.9809,
+        "final_score": 0.6302,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Uttar Pradesh",
+        "date": "2026-06-27",
+        "cosine_score": 0.6168620586395264,
+        "freshness_score": 0.9512,
+        "final_score": 0.6169,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Droupadi Murmu",
+        "date": "2026-07-02",
+        "cosine_score": 0.607305645942688,
+        "freshness_score": 0.9697,
+        "final_score": 0.6073,
+        "topic_type": "dynamic"
+      }
+    ],
+    "answer": "Not found in provided documents.",
+    "expected_type": "DYNAMIC_HISTORICAL",
+    "type_correct": true
+  }
+]
