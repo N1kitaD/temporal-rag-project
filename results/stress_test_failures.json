@@ -1,0 +1,702 @@
+[
+  {
+    "question": "What is the chemical formula for water?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "STATIC",
+    "p_dynamic": 0.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "Molar mass constant",
+        "date": "2025-11-22",
+        "cosine_score": 0.4779,
+        "topic_type": "static"
+      },
+      {
+        "title": "Chemical element",
+        "date": "2026-05-02",
+        "cosine_score": 0.4659,
+        "topic_type": "static"
+      },
+      {
+        "title": "Chemical element",
+        "date": "2026-05-02",
+        "cosine_score": 0.4165,
+        "topic_type": "static"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "Molar mass constant",
+        "date": "2025-11-22",
+        "cosine_score": 0.4779450297355652,
+        "freshness_score": 0.4093,
+        "final_score": 0.4779,
+        "topic_type": "static"
+      },
+      {
+        "title": "Chemical element",
+        "date": "2026-05-02",
+        "cosine_score": 0.46588265895843506,
+        "freshness_score": 0.7579,
+        "final_score": 0.4659,
+        "topic_type": "static"
+      },
+      {
+        "title": "Chemical element",
+        "date": "2026-05-02",
+        "cosine_score": 0.4165158271789551,
+        "freshness_score": 0.7579,
+        "final_score": 0.4165,
+        "topic_type": "static"
+      },
+      {
+        "title": "Bromine",
+        "date": "2026-06-28",
+        "cosine_score": 0.409531831741333,
+        "freshness_score": 0.9475,
+        "final_score": 0.4095,
+        "topic_type": "static"
+      },
+      {
+        "title": "Arsenic",
+        "date": "2026-07-04",
+        "cosine_score": 0.4072009325027466,
+        "freshness_score": 0.9697,
+        "final_score": 0.4072,
+        "topic_type": "static"
+      }
+    ]
+  },
+  {
+    "question": "What is the capital of France?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "STATIC",
+    "p_dynamic": 0.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "French Revolution",
+        "date": "2026-06-23",
+        "cosine_score": 0.4353,
+        "topic_type": "static"
+      },
+      {
+        "title": "Axis powers",
+        "date": "2026-07-04",
+        "cosine_score": 0.3777,
+        "topic_type": "static"
+      },
+      {
+        "title": "French Revolution",
+        "date": "2026-06-23",
+        "cosine_score": 0.3605,
+        "topic_type": "static"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "French Revolution",
+        "date": "2026-06-23",
+        "cosine_score": 0.4353225827217102,
+        "freshness_score": 0.9294,
+        "final_score": 0.4353,
+        "topic_type": "static"
+      },
+      {
+        "title": "Axis powers",
+        "date": "2026-07-04",
+        "cosine_score": 0.37771859765052795,
+        "freshness_score": 0.9659,
+        "final_score": 0.3777,
+        "topic_type": "static"
+      },
+      {
+        "title": "French Revolution",
+        "date": "2026-06-23",
+        "cosine_score": 0.3604569435119629,
+        "freshness_score": 0.9294,
+        "final_score": 0.3605,
+        "topic_type": "static"
+      },
+      {
+        "title": "Confluence",
+        "date": "2026-06-26",
+        "cosine_score": 0.3546752333641052,
+        "freshness_score": 0.9402,
+        "final_score": 0.3547,
+        "topic_type": "static"
+      },
+      {
+        "title": "Extremes on Earth",
+        "date": "2026-07-03",
+        "cosine_score": 0.3475712537765503,
+        "freshness_score": 0.9659,
+        "final_score": 0.3476,
+        "topic_type": "static"
+      }
+    ]
+  },
+  {
+    "question": "Who is the Chief Justice of India?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "DYNAMIC_CURRENT",
+    "p_dynamic": 1.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "Chief Justice of India",
+        "date": "2026-05-23",
+        "cosine_score": 0.7408,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Justice of India",
+        "date": "2026-05-23",
+        "cosine_score": 0.645,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "President of India",
+        "date": "2026-06-26",
+        "cosine_score": 0.6228,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "Chief Justice of India",
+        "date": "2026-05-23",
+        "cosine_score": 0.7407883405685425,
+        "freshness_score": 0.8249,
+        "final_score": 0.766,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "President of India",
+        "date": "2026-06-26",
+        "cosine_score": 0.6227871775627136,
+        "freshness_score": 0.9402,
+        "final_score": 0.718,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "President of India",
+        "date": "2026-06-26",
+        "cosine_score": 0.6086965799331665,
+        "freshness_score": 0.9402,
+        "final_score": 0.7082,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Prime Minister of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.5986304879188538,
+        "freshness_score": 0.9548,
+        "final_score": 0.7055,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Justice of India",
+        "date": "2026-05-23",
+        "cosine_score": 0.6450083255767822,
+        "freshness_score": 0.8249,
+        "final_score": 0.699,
+        "topic_type": "dynamic"
+      }
+    ]
+  },
+  {
+    "question": "Who is the CEO of Google?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "DYNAMIC_CURRENT",
+    "p_dynamic": 1.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.6044,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.4872,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.4495,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.6044315695762634,
+        "freshness_score": 0.9734,
+        "final_score": 0.7151,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.48724716901779175,
+        "freshness_score": 0.9734,
+        "final_score": 0.6331,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.449543297290802,
+        "freshness_score": 0.9734,
+        "final_score": 0.6067,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.42837095260620117,
+        "freshness_score": 0.9734,
+        "final_score": 0.5919,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.4254627227783203,
+        "freshness_score": 0.9734,
+        "final_score": 0.5898,
+        "topic_type": "dynamic"
+      }
+    ]
+  },
+  {
+    "question": "Who won the most recent Cricket World Cup?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "DYNAMIC_CURRENT",
+    "p_dynamic": 1.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6313,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.614,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6101,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6312829256057739,
+        "freshness_score": 0.9697,
+        "final_score": 0.7328,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6139830350875854,
+        "freshness_score": 0.9697,
+        "final_score": 0.7207,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6100678443908691,
+        "freshness_score": 0.9697,
+        "final_score": 0.7179,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.5952227115631104,
+        "freshness_score": 0.9697,
+        "final_score": 0.7076,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.5877875685691833,
+        "freshness_score": 0.9697,
+        "final_score": 0.7024,
+        "topic_type": "dynamic"
+      }
+    ]
+  },
+  {
+    "question": "Who was the President of India in 2010?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "DYNAMIC_HISTORICAL",
+    "p_dynamic": 0.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "K. R. Narayanan",
+        "date": "2026-06-30",
+        "cosine_score": 0.6194,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "List of presidents of India",
+        "date": "2026-07-05",
+        "cosine_score": 0.6193,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Pranab Mukherjee",
+        "date": "2026-06-19",
+        "cosine_score": 0.6124,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "K. R. Narayanan",
+        "date": "2026-06-30",
+        "cosine_score": 0.619405210018158,
+        "freshness_score": 0.9548,
+        "final_score": 0.6194,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "List of presidents of India",
+        "date": "2026-07-05",
+        "cosine_score": 0.6192564368247986,
+        "freshness_score": 0.9734,
+        "final_score": 0.6193,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Pranab Mukherjee",
+        "date": "2026-06-19",
+        "cosine_score": 0.6124254465103149,
+        "freshness_score": 0.9117,
+        "final_score": 0.6124,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Pranab Mukherjee",
+        "date": "2026-06-19",
+        "cosine_score": 0.5973645448684692,
+        "freshness_score": 0.9117,
+        "final_score": 0.5974,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Droupadi Murmu",
+        "date": "2026-07-02",
+        "cosine_score": 0.5941516160964966,
+        "freshness_score": 0.9622,
+        "final_score": 0.5942,
+        "topic_type": "dynamic"
+      }
+    ]
+  },
+  {
+    "question": "What was India's capital before New Delhi?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "STATIC",
+    "p_dynamic": 0.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "Chief Minister of Delhi",
+        "date": "2026-06-21",
+        "cosine_score": 0.5098,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Mughal successor states",
+        "date": "2026-06-10",
+        "cosine_score": 0.4739,
+        "topic_type": "static"
+      },
+      {
+        "title": "Chief Minister of Delhi",
+        "date": "2026-06-21",
+        "cosine_score": 0.4711,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "Chief Minister of Delhi",
+        "date": "2026-06-21",
+        "cosine_score": 0.5097817182540894,
+        "freshness_score": 0.9223,
+        "final_score": 0.5098,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Mughal successor states",
+        "date": "2026-06-10",
+        "cosine_score": 0.4739474654197693,
+        "freshness_score": 0.8841,
+        "final_score": 0.4739,
+        "topic_type": "static"
+      },
+      {
+        "title": "Chief Minister of Delhi",
+        "date": "2026-06-21",
+        "cosine_score": 0.4710732102394104,
+        "freshness_score": 0.9223,
+        "final_score": 0.4711,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Chief Minister of Maharashtra",
+        "date": "2026-06-29",
+        "cosine_score": 0.4554259479045868,
+        "freshness_score": 0.9512,
+        "final_score": 0.4554,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Economy of India",
+        "date": "2026-06-30",
+        "cosine_score": 0.44635093212127686,
+        "freshness_score": 0.9548,
+        "final_score": 0.4464,
+        "topic_type": "dynamic"
+      }
+    ]
+  },
+  {
+    "question": "Who was the CEO of Apple in 2005?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "DYNAMIC_HISTORICAL",
+    "p_dynamic": 0.0,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.4852,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "IOS",
+        "date": "2026-07-03",
+        "cosine_score": 0.4731,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.4702,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.4852259159088135,
+        "freshness_score": 0.9734,
+        "final_score": 0.4852,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "IOS",
+        "date": "2026-07-03",
+        "cosine_score": 0.47305378317832947,
+        "freshness_score": 0.9659,
+        "final_score": 0.4731,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Android (operating system)",
+        "date": "2026-07-05",
+        "cosine_score": 0.47024741768836975,
+        "freshness_score": 0.9734,
+        "final_score": 0.4702,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "IOS",
+        "date": "2026-07-03",
+        "cosine_score": 0.44853198528289795,
+        "freshness_score": 0.9659,
+        "final_score": 0.4485,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "AI agent",
+        "date": "2026-06-29",
+        "cosine_score": 0.4330124855041504,
+        "freshness_score": 0.9475,
+        "final_score": 0.433,
+        "topic_type": "dynamic"
+      }
+    ]
+  },
+  {
+    "question": "What is India's cricket record against Australia?",
+    "verdict": "p",
+    "failure_type": "B",
+    "query_type_predicted": "DYNAMIC_CURRENT",
+    "p_dynamic": 1.0,
+    "answer": "India's lowest score in Test cricket was 36 against Australia in 2020. India lost a Test match against Australia by 337 runs at the MCG in Melbourne.",
+    "top3_before": [
+      {
+        "title": "Sachin Tendulkar",
+        "date": "2026-06-22",
+        "cosine_score": 0.6354,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "List of Test cricket records",
+        "date": "2026-06-30",
+        "cosine_score": 0.626,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6252,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6252227425575256,
+        "freshness_score": 0.9697,
+        "final_score": 0.7286,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "List of Test cricket records",
+        "date": "2026-06-30",
+        "cosine_score": 0.626042902469635,
+        "freshness_score": 0.9548,
+        "final_score": 0.7247,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6187416315078735,
+        "freshness_score": 0.9697,
+        "final_score": 0.724,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Sachin Tendulkar",
+        "date": "2026-06-22",
+        "cosine_score": 0.6353805065155029,
+        "freshness_score": 0.9259,
+        "final_score": 0.7225,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.5963538885116577,
+        "freshness_score": 0.9697,
+        "final_score": 0.7083,
+        "topic_type": "dynamic"
+      }
+    ]
+  },
+  {
+    "question": "Who is the most successful Indian cricketer?",
+    "verdict": "n",
+    "failure_type": "E",
+    "query_type_predicted": "DYNAMIC_CURRENT",
+    "p_dynamic": 0.5,
+    "answer": "Not found in provided documents.",
+    "top3_before": [
+      {
+        "title": "Rohit Sharma",
+        "date": "2026-06-29",
+        "cosine_score": 0.6137,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Virat Kohli",
+        "date": "2026-06-26",
+        "cosine_score": 0.6088,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6085,
+        "topic_type": "dynamic"
+      }
+    ],
+    "top5_after": [
+      {
+        "title": "Rohit Sharma",
+        "date": "2026-06-29",
+        "cosine_score": 0.6137495040893555,
+        "freshness_score": 0.9512,
+        "final_score": 0.6644,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "India national cricket team",
+        "date": "2026-07-04",
+        "cosine_score": 0.6084821224212646,
+        "freshness_score": 0.9697,
+        "final_score": 0.6627,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "Virat Kohli",
+        "date": "2026-06-26",
+        "cosine_score": 0.6088064908981323,
+        "freshness_score": 0.9402,
+        "final_score": 0.6585,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "MS Dhoni",
+        "date": "2026-06-27",
+        "cosine_score": 0.6000180840492249,
+        "freshness_score": 0.9402,
+        "final_score": 0.6511,
+        "topic_type": "dynamic"
+      },
+      {
+        "title": "MS Dhoni",
+        "date": "2026-06-27",
+        "cosine_score": 0.5973687171936035,
+        "freshness_score": 0.9402,
+        "final_score": 0.6488,
+        "topic_type": "dynamic"
+      }
+    ]
+  }
+]
