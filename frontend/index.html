@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Temporal RAG System</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main class="container">
+
+  <header class="titleblock">
+    <h1>TEMPORAL RAG SYSTEM</h1>
+    <p class="subtitle">Freshness-Aware Retrieval-Augmented Generation</p>
+  </header>
+
+  <!-- SECTION 1: INPUT -->
+  <section class="panel input-panel">
+
+    <div class="section-heading">EXAMPLE QUERIES</div>
+    <p class="section-hint">Click any example below to load it into the question box, or type your own question further down.</p>
+
+    <div class="examples">
+      <div class="example-group">
+        <div class="group-label">STATIC</div>
+        <div class="btn-row">
+          <button class="ex-btn" data-q="Boiling point of water?">Boiling point of water?</button>
+          <button class="ex-btn" data-q="India independence year?">India independence year?</button>
+        </div>
+      </div>
+      <div class="example-group">
+        <div class="group-label">DYNAMIC-CURRENT</div>
+        <div class="btn-row">
+          <button class="ex-btn" data-q="Current CM of Assam?">Current CM of Assam?</button>
+          <button class="ex-btn" data-q="Current PM of India?">Current PM of India?</button>
+        </div>
+      </div>
+      <div class="example-group">
+        <div class="group-label">DYNAMIC-HISTORICAL</div>
+        <div class="btn-row">
+          <button class="ex-btn" data-q="CM of Assam in 2016?">CM of Assam in 2016?</button>
+          <button class="ex-btn" data-q="PM of India in 2005?">PM of India in 2005?</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-divider"><span>OR TYPE YOUR OWN QUESTION</span></div>
+
+    <label for="question-input" class="input-label">YOUR QUESTION</label>
+    <input type="text" id="question-input" class="question-input" placeholder="e.g. Who is the current Chief Justice of India?" />
+
+    <div class="config-row" role="radiogroup" aria-label="Configuration">
+      <label class="pill">
+        <input type="radio" name="config" value="two-stage" checked />
+        <span>Two-Stage (Full System)</span>
+      </label>
+      <label class="pill">
+        <input type="radio" name="config" value="plain" />
+        <span>Plain Baseline</span>
+      </label>
+      <label class="pill">
+        <input type="radio" name="config" value="naive" />
+        <span>Naive Penalty</span>
+      </label>
+    </div>
+    <div class="config-desc" id="config-desc">Classifier + Adaptive Reranker + Generator</div>
+    <div class="config-explain" id="config-explain">
+      <p><strong>HOW IT WORKS:</strong> Classifies the query into Static, Dynamic-Current, or Dynamic-Historical. Then applies the age penalty only if the query is Dynamic-Current, scaled by how confident the classifier is. Static and Historical queries are protected, their document order is unchanged.</p>
+      <p><strong>WHY IT MATTERS:</strong> Freshness helps when the answer changes over time, but hurts when it does not. This system knows the difference.</p>
+    </div>
+
+    <button id="submit-btn" class="submit-btn">SUBMIT QUESTION</button>
+  </section>
+
+  <!-- SECTION 2: PRIMARY RESULTS -->
+  <section class="results-row">
+    <div class="panel classification-card">
+      <div class="card-header">QUERY CLASSIFICATION</div>
+      <div id="classification-badge" class="badge badge-neutral">AWAITING QUERY</div>
+      <div id="confidence" class="mono confidence">Confidence: P = -</div>
+      <div id="penalty-status" class="penalty-status">-</div>
+    </div>
+
+    <div class="panel answer-card">
+      <div class="card-header">ANSWER</div>
+      <div id="answer-text" class="answer-text placeholder">Your answer will appear here.</div>
+      <div id="source-line" class="mono source-line"></div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: DOCUMENT EVIDENCE -->
+  <section class="evidence-row">
+    <div class="panel table-card">
+      <div class="card-header">BEFORE RERANK <span class="sub-label">(pure cosine similarity)</span></div>
+      <table class="doc-table">
+        <thead>
+          <tr><th>#</th><th>Title</th><th>Date</th><th>Score</th></tr>
+        </thead>
+        <tbody id="before-body"></tbody>
+      </table>
+    </div>
+
+    <div class="panel table-card">
+      <div class="card-header">AFTER RERANK <span class="sub-label">(adaptive age penalty applied)</span></div>
+      <table class="doc-table">
+        <thead>
+          <tr><th>#</th><th>Title</th><th>Date</th><th>Score</th></tr>
+        </thead>
+        <tbody id="after-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel log-panel">
+    <div id="log-toggle" class="log-toggle">▶ FULL DIAGNOSTIC LOG</div>
+    <div id="log-body" class="log-body hidden">
+      <button id="copy-btn" class="copy-btn">COPY</button>
+      <pre id="log-json"></pre>
+    </div>
+  </section>
+
+</main>
+
+<script src="sample_data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
