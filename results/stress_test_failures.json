@@ -1,145 +1,5 @@
 [
   {
-    "question": "What is the chemical formula for water?",
-    "verdict": "n",
-    "failure_type": "E",
-    "query_type_predicted": "STATIC",
-    "p_dynamic": 0.0,
-    "answer": "Not found in provided documents.",
-    "top3_before": [
-      {
-        "title": "Molar mass constant",
-        "date": "2025-11-22",
-        "cosine_score": 0.4779,
-        "topic_type": "static"
-      },
-      {
-        "title": "Chemical element",
-        "date": "2026-05-02",
-        "cosine_score": 0.4659,
-        "topic_type": "static"
-      },
-      {
-        "title": "Chemical element",
-        "date": "2026-05-02",
-        "cosine_score": 0.4165,
-        "topic_type": "static"
-      }
-    ],
-    "top5_after": [
-      {
-        "title": "Molar mass constant",
-        "date": "2025-11-22",
-        "cosine_score": 0.4779450297355652,
-        "freshness_score": 0.4093,
-        "final_score": 0.4779,
-        "topic_type": "static"
-      },
-      {
-        "title": "Chemical element",
-        "date": "2026-05-02",
-        "cosine_score": 0.46588265895843506,
-        "freshness_score": 0.7579,
-        "final_score": 0.4659,
-        "topic_type": "static"
-      },
-      {
-        "title": "Chemical element",
-        "date": "2026-05-02",
-        "cosine_score": 0.4165158271789551,
-        "freshness_score": 0.7579,
-        "final_score": 0.4165,
-        "topic_type": "static"
-      },
-      {
-        "title": "Bromine",
-        "date": "2026-06-28",
-        "cosine_score": 0.409531831741333,
-        "freshness_score": 0.9475,
-        "final_score": 0.4095,
-        "topic_type": "static"
-      },
-      {
-        "title": "Arsenic",
-        "date": "2026-07-04",
-        "cosine_score": 0.4072009325027466,
-        "freshness_score": 0.9697,
-        "final_score": 0.4072,
-        "topic_type": "static"
-      }
-    ]
-  },
-  {
-    "question": "What is the capital of France?",
-    "verdict": "n",
-    "failure_type": "E",
-    "query_type_predicted": "STATIC",
-    "p_dynamic": 0.0,
-    "answer": "Not found in provided documents.",
-    "top3_before": [
-      {
-        "title": "French Revolution",
-        "date": "2026-06-23",
-        "cosine_score": 0.4353,
-        "topic_type": "static"
-      },
-      {
-        "title": "Axis powers",
-        "date": "2026-07-04",
-        "cosine_score": 0.3777,
-        "topic_type": "static"
-      },
-      {
-        "title": "French Revolution",
-        "date": "2026-06-23",
-        "cosine_score": 0.3605,
-        "topic_type": "static"
-      }
-    ],
-    "top5_after": [
-      {
-        "title": "French Revolution",
-        "date": "2026-06-23",
-        "cosine_score": 0.4353225827217102,
-        "freshness_score": 0.9294,
-        "final_score": 0.4353,
-        "topic_type": "static"
-      },
-      {
-        "title": "Axis powers",
-        "date": "2026-07-04",
-        "cosine_score": 0.37771859765052795,
-        "freshness_score": 0.9659,
-        "final_score": 0.3777,
-        "topic_type": "static"
-      },
-      {
-        "title": "French Revolution",
-        "date": "2026-06-23",
-        "cosine_score": 0.3604569435119629,
-        "freshness_score": 0.9294,
-        "final_score": 0.3605,
-        "topic_type": "static"
-      },
-      {
-        "title": "Confluence",
-        "date": "2026-06-26",
-        "cosine_score": 0.3546752333641052,
-        "freshness_score": 0.9402,
-        "final_score": 0.3547,
-        "topic_type": "static"
-      },
-      {
-        "title": "Extremes on Earth",
-        "date": "2026-07-03",
-        "cosine_score": 0.3475712537765503,
-        "freshness_score": 0.9659,
-        "final_score": 0.3476,
-        "topic_type": "static"
-      }
-    ]
-  },
-  {
     "question": "Who is the Chief Justice of India?",
     "verdict": "n",
     "failure_type": "E",
@@ -205,76 +65,6 @@
         "cosine_score": 0.6450083255767822,
         "freshness_score": 0.8249,
         "final_score": 0.699,
-        "topic_type": "dynamic"
-      }
-    ]
-  },
-  {
-    "question": "Who is the CEO of Google?",
-    "verdict": "n",
-    "failure_type": "E",
-    "query_type_predicted": "DYNAMIC_CURRENT",
-    "p_dynamic": 1.0,
-    "answer": "Not found in provided documents.",
-    "top3_before": [
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.6044,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.4872,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.4495,
-        "topic_type": "dynamic"
-      }
-    ],
-    "top5_after": [
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.6044315695762634,
-        "freshness_score": 0.9734,
-        "final_score": 0.7151,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.48724716901779175,
-        "freshness_score": 0.9734,
-        "final_score": 0.6331,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.449543297290802,
-        "freshness_score": 0.9734,
-        "final_score": 0.6067,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.42837095260620117,
-        "freshness_score": 0.9734,
-        "final_score": 0.5919,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.4254627227783203,
-        "freshness_score": 0.9734,
-        "final_score": 0.5898,
         "topic_type": "dynamic"
       }
     ]
@@ -420,76 +210,6 @@
     ]
   },
   {
-    "question": "What was India's capital before New Delhi?",
-    "verdict": "n",
-    "failure_type": "E",
-    "query_type_predicted": "STATIC",
-    "p_dynamic": 0.0,
-    "answer": "Not found in provided documents.",
-    "top3_before": [
-      {
-        "title": "Chief Minister of Delhi",
-        "date": "2026-06-21",
-        "cosine_score": 0.5098,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Mughal successor states",
-        "date": "2026-06-10",
-        "cosine_score": 0.4739,
-        "topic_type": "static"
-      },
-      {
-        "title": "Chief Minister of Delhi",
-        "date": "2026-06-21",
-        "cosine_score": 0.4711,
-        "topic_type": "dynamic"
-      }
-    ],
-    "top5_after": [
-      {
-        "title": "Chief Minister of Delhi",
-        "date": "2026-06-21",
-        "cosine_score": 0.5097817182540894,
-        "freshness_score": 0.9223,
-        "final_score": 0.5098,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Mughal successor states",
-        "date": "2026-06-10",
-        "cosine_score": 0.4739474654197693,
-        "freshness_score": 0.8841,
-        "final_score": 0.4739,
-        "topic_type": "static"
-      },
-      {
-        "title": "Chief Minister of Delhi",
-        "date": "2026-06-21",
-        "cosine_score": 0.4710732102394104,
-        "freshness_score": 0.9223,
-        "final_score": 0.4711,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Chief Minister of Maharashtra",
-        "date": "2026-06-29",
-        "cosine_score": 0.4554259479045868,
-        "freshness_score": 0.9512,
-        "final_score": 0.4554,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "Economy of India",
-        "date": "2026-06-30",
-        "cosine_score": 0.44635093212127686,
-        "freshness_score": 0.9548,
-        "final_score": 0.4464,
-        "topic_type": "dynamic"
-      }
-    ]
-  },
-  {
     "question": "Who was the CEO of Apple in 2005?",
     "verdict": "n",
     "failure_type": "E",
@@ -498,63 +218,63 @@
     "answer": "Not found in provided documents.",
     "top3_before": [
       {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.4852,
+        "title": "Apple Inc.",
+        "date": "2026-07-12",
+        "cosine_score": 0.7645,
         "topic_type": "dynamic"
       },
       {
-        "title": "IOS",
-        "date": "2026-07-03",
-        "cosine_score": 0.4731,
-        "topic_type": "dynamic"
+        "title": "Steve Jobs",
+        "date": "2026-07-07",
+        "cosine_score": 0.6647,
+        "topic_type": "static"
       },
       {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.4702,
+        "title": "Apple Inc.",
+        "date": "2026-07-12",
+        "cosine_score": 0.6524,
         "topic_type": "dynamic"
       }
     ],
     "top5_after": [
       {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.4852259159088135,
-        "freshness_score": 0.9734,
-        "final_score": 0.4852,
+        "title": "Apple Inc.",
+        "date": "2026-07-12",
+        "cosine_score": 0.7645443677902222,
+        "freshness_score": 1.0,
+        "final_score": 0.7645,
         "topic_type": "dynamic"
       },
       {
-        "title": "IOS",
-        "date": "2026-07-03",
-        "cosine_score": 0.47305378317832947,
-        "freshness_score": 0.9659,
-        "final_score": 0.4731,
+        "title": "Steve Jobs",
+        "date": "2026-07-07",
+        "cosine_score": 0.6647012233734131,
+        "freshness_score": 0.9772,
+        "final_score": 0.6647,
+        "topic_type": "static"
+      },
+      {
+        "title": "Apple Inc.",
+        "date": "2026-07-12",
+        "cosine_score": 0.652442455291748,
+        "freshness_score": 1.0,
+        "final_score": 0.6524,
         "topic_type": "dynamic"
       },
       {
-        "title": "Android (operating system)",
-        "date": "2026-07-05",
-        "cosine_score": 0.47024741768836975,
-        "freshness_score": 0.9734,
-        "final_score": 0.4702,
+        "title": "Apple Inc.",
+        "date": "2026-07-12",
+        "cosine_score": 0.6425414681434631,
+        "freshness_score": 1.0,
+        "final_score": 0.6425,
         "topic_type": "dynamic"
       },
       {
-        "title": "IOS",
-        "date": "2026-07-03",
-        "cosine_score": 0.44853198528289795,
-        "freshness_score": 0.9659,
-        "final_score": 0.4485,
-        "topic_type": "dynamic"
-      },
-      {
-        "title": "AI agent",
-        "date": "2026-06-29",
-        "cosine_score": 0.4330124855041504,
-        "freshness_score": 0.9475,
-        "final_score": 0.433,
+        "title": "Apple Inc.",
+        "date": "2026-07-12",
+        "cosine_score": 0.6214889287948608,
+        "freshness_score": 1.0,
+        "final_score": 0.6215,
         "topic_type": "dynamic"
       }
     ]
@@ -565,7 +285,7 @@
     "failure_type": "B",
     "query_type_predicted": "DYNAMIC_CURRENT",
     "p_dynamic": 1.0,
-    "answer": "India's lowest score in Test cricket was 36 against Australia in 2020. India lost a Test match against Australia by 337 runs at the MCG in Melbourne.",
+    "answer": "India's lowest score in Test cricket was 36 against Australia in 2020. India lost the Test matches, including a heavy 337-run win for Australia and another Test where Sachin Tendulkar scored an unbeaten 154 but India still lost.",
     "top3_before": [
       {
         "title": "Sachin Tendulkar",
@@ -661,8 +381,8 @@
         "title": "Rohit Sharma",
         "date": "2026-06-29",
         "cosine_score": 0.6137495040893555,
-        "freshness_score": 0.9512,
-        "final_score": 0.6644,
+        "freshness_score": 0.9475,
+        "final_score": 0.6638,
         "topic_type": "dynamic"
       },
       {
