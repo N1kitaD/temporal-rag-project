@@ -130,36 +130,16 @@ function selectedConfig() {
 //     body: JSON.stringify({ question, config }) });
 //   return await res.json();
 async function callBackend(question, config) {
-  await new Promise(r => setTimeout(r, 600));
-  // Local mock: adapt sample response to selected question so demo feels responsive.
-  const base = JSON.parse(JSON.stringify(window.SAMPLE_RESPONSE));
-  base.question = question;
-  const ql = question.toLowerCase();
-  if (/boiling|independence|1947|celsius|water/.test(ql)) {
-    base.query_type = "STATIC";
-    base.p_dynamic = 0.08;
-    base.penalty_status = CLASS_META.STATIC.status;
-    base.answer = /boiling/.test(ql)
-      ? "Water boils at 100 °C (212 °F) at standard atmospheric pressure."
-      : "India gained independence from British rule in 1947.";
-    base.source_title = /boiling/.test(ql) ? "Properties of water" : "Independence of India";
-    base.source_date = /boiling/.test(ql) ? "2010-04-12" : "2015-08-15";
-  } else if (/2016|2005|in \d{4}/.test(ql)) {
-    base.query_type = "DYNAMIC_HISTORICAL";
-    base.p_dynamic = 0.31;
-    base.penalty_status = CLASS_META.DYNAMIC_HISTORICAL.status;
-    base.answer = /2005/.test(ql)
-      ? "Manmohan Singh was the Prime Minister of India in 2005."
-      : "Sarbananda Sonowal was the Chief Minister of Assam in 2016.";
-    base.source_title = /2005/.test(ql) ? "Prime Minister of India" : "Chief Minister of Assam";
-    base.source_date = /2005/.test(ql) ? "2005-11-04" : "2016-05-24";
-  } else if (/current pm|prime minister/.test(ql)) {
-    base.query_type = "DYNAMIC_CURRENT";
-    base.answer = "Narendra Modi is the current Prime Minister of India, in office since May 2014.";
-    base.source_title = "Prime Minister of India";
-    base.source_date = "2024-06-09";
+  const res = await fetch("http://localhost:8000/query", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ question, config })
+  });
+  if (!res.ok) {
+    const err = await res.json();
+    throw new Error(err.detail || "Server error");
   }
-  return base;
+  return await res.json();
 }
 
 // ---------- Rendering ----------
