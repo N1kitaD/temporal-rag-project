@@ -1,0 +1,1047 @@
+[
+  {
+    "question_id": "q001",
+    "question": "What is the chemical formula of water?",
+    "correct_answer": "H2O",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Water",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q002",
+    "question": "What is the Pythagorean theorem?",
+    "correct_answer": "a squared plus b squared equals c squared",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Pythagorean theorem",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q003",
+    "question": "What is the speed of light?",
+    "correct_answer": "299792458",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Speed of light",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q004",
+    "question": "What is the boiling point of water?",
+    "correct_answer": "100",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Water",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q005",
+    "question": "What is the chemical symbol for gold?",
+    "correct_answer": "Au",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Gold",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q006",
+    "question": "What is the chemical symbol for oxygen?",
+    "correct_answer": "O",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Oxygen",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q007",
+    "question": "What is the atomic number of carbon?",
+    "correct_answer": "6",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Carbon",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q008",
+    "question": "What is Newton's first law of motion?",
+    "correct_answer": "inertia",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Newton's laws of motion",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q009",
+    "question": "What is the value of pi?",
+    "correct_answer": "3.14159",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Pi",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q010",
+    "question": "What is the powerhouse of the cell?",
+    "correct_answer": "mitochondria",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Mitochondrion",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q011",
+    "question": "How many chromosomes does a human have?",
+    "correct_answer": "46",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Chromosome",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q012",
+    "question": "What is the theory of evolution?",
+    "correct_answer": "natural selection",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Evolution",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q013",
+    "question": "What is photosynthesis?",
+    "correct_answer": "chlorophyll",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Photosynthesis",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q014",
+    "question": "What is the largest planet in the solar system?",
+    "correct_answer": "Jupiter",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Jupiter",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q015",
+    "question": "What is the freezing point of water in Celsius?",
+    "correct_answer": "0",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Water",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q016",
+    "question": "When did India gain independence?",
+    "correct_answer": "1947",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Indian independence movement",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q017",
+    "question": "When did World War II end?",
+    "correct_answer": "1945",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "World War II",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q018",
+    "question": "When did World War I begin?",
+    "correct_answer": "1914",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "World War I",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q019",
+    "question": "When was the Constitution of India adopted?",
+    "correct_answer": "1950",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Constitution of India",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q020",
+    "question": "Who wrote the Indian national anthem?",
+    "correct_answer": "Rabindranath Tagore",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Rabindranath Tagore",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q021",
+    "question": "What is the capital of France?",
+    "correct_answer": "Paris",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Paris",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q022",
+    "question": "What is the capital of Japan?",
+    "correct_answer": "Tokyo",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Tokyo",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q023",
+    "question": "What is the longest river in the world?",
+    "correct_answer": "Nile",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Nile",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q024",
+    "question": "What is the tallest mountain in the world?",
+    "correct_answer": "Everest",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Mount Everest",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q025",
+    "question": "Who discovered gravity?",
+    "correct_answer": "Isaac Newton",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Isaac Newton",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q026",
+    "question": "Who was the first President of India?",
+    "correct_answer": "Rajendra Prasad",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Rajendra Prasad",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q027",
+    "question": "Who invented the telephone?",
+    "correct_answer": "Alexander Graham Bell",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "Alexander Graham Bell",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q028",
+    "question": "When did the French Revolution begin?",
+    "correct_answer": "1789",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "French Revolution",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q029",
+    "question": "What was India's capital before New Delhi?",
+    "correct_answer": "Calcutta",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "New Delhi",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q030",
+    "question": "How many states does India have?",
+    "correct_answer": "28",
+    "true_type": "STATIC",
+    "group": 1,
+    "doc_title": "States and union territories of India",
+    "notes": "Time-invariant. Penalty must not fire."
+  },
+  {
+    "question_id": "q031",
+    "question": "Who is the Chief Minister of Assam?",
+    "correct_answer": "Himanta Biswa Sarma",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Chief Minister of Assam",
+    "old_wrong_answer": "Sarbananda Sonowal",
+    "old_doc_date": "2026-07-09",
+    "new_doc_date": "2026-07-09",
+    "has_revision_pair": true,
+    "notes": "Old (2021) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q032",
+    "question": "Who is the Prime Minister of India?",
+    "correct_answer": "Narendra Modi",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Prime Minister of India",
+    "old_wrong_answer": "Manmohan Singh",
+    "old_doc_date": "2026-07-14",
+    "new_doc_date": "2026-07-14",
+    "has_revision_pair": true,
+    "notes": "Old (2010) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q033",
+    "question": "Who is the President of India?",
+    "correct_answer": "Droupadi Murmu",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "President of India",
+    "old_wrong_answer": "Ram Nath Kovind",
+    "old_doc_date": "2026-07-13",
+    "new_doc_date": "2026-07-13",
+    "has_revision_pair": true,
+    "notes": "Old (2020) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q034",
+    "question": "Who is the Chief Minister of West Bengal?",
+    "correct_answer": "Mamata Banerjee",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Chief Minister of West Bengal",
+    "old_wrong_answer": "Buddhadeb Bhattacharjee",
+    "old_doc_date": "2026-07-13",
+    "new_doc_date": "2026-07-13",
+    "has_revision_pair": true,
+    "notes": "Old (2010) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q035",
+    "question": "Who is the Chief Minister of Tamil Nadu?",
+    "correct_answer": "M. K. Stalin",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Chief Minister of Tamil Nadu",
+    "old_wrong_answer": "Edappadi K. Palaniswami",
+    "old_doc_date": "2026-07-13",
+    "new_doc_date": "2026-07-13",
+    "has_revision_pair": true,
+    "notes": "Old (2020) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q036",
+    "question": "Who is the Chief Minister of Karnataka?",
+    "correct_answer": "Siddaramaiah",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Chief Minister of Karnataka",
+    "old_wrong_answer": "Basavaraj Bommai",
+    "old_doc_date": "2026-07-14",
+    "new_doc_date": "2026-07-14",
+    "has_revision_pair": true,
+    "notes": "Old (2022) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q037",
+    "question": "Who is the Chief Minister of Maharashtra?",
+    "correct_answer": "Devendra Fadnavis",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Chief Minister of Maharashtra",
+    "old_wrong_answer": "Uddhav Thackeray",
+    "old_doc_date": "2026-06-29",
+    "new_doc_date": "2026-06-29",
+    "has_revision_pair": true,
+    "notes": "Old (2019) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q038",
+    "question": "Who is the Chief Justice of India?",
+    "correct_answer": "Surya Kant",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Chief Justice of India",
+    "old_wrong_answer": "Sharad Arvind Bobde",
+    "old_doc_date": "2026-05-23",
+    "new_doc_date": "2026-05-23",
+    "has_revision_pair": true,
+    "notes": "Old (2020) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q039",
+    "question": "Who is the Prime Minister of the United Kingdom?",
+    "correct_answer": "Keir Starmer",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Prime Minister of the United Kingdom",
+    "old_wrong_answer": "Boris Johnson",
+    "old_doc_date": "2026-07-08",
+    "new_doc_date": "2026-07-08",
+    "has_revision_pair": true,
+    "notes": "Old (2022) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q040",
+    "question": "Who is the President of the United States?",
+    "correct_answer": "Donald Trump",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "President of the United States",
+    "old_wrong_answer": "Joe Biden",
+    "old_doc_date": "2026-07-04",
+    "new_doc_date": "2026-07-04",
+    "has_revision_pair": true,
+    "notes": "Old (2021) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q041",
+    "question": "Who is the Chancellor of Germany?",
+    "correct_answer": "Friedrich Merz",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Chancellor of Germany",
+    "old_wrong_answer": "Angela Merkel",
+    "old_doc_date": "2026-06-29",
+    "new_doc_date": "2026-06-29",
+    "has_revision_pair": true,
+    "notes": "Old (2021) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q042",
+    "question": "Who is the President of France?",
+    "correct_answer": "Emmanuel Macron",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "President of France",
+    "old_wrong_answer": "Francois Hollande",
+    "old_doc_date": "2026-07-12",
+    "new_doc_date": "2026-07-12",
+    "has_revision_pair": true,
+    "notes": "Old (2016) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q043",
+    "question": "Who is the Prime Minister of Canada?",
+    "correct_answer": "Mark Carney",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Prime Minister of Canada",
+    "old_wrong_answer": "Justin Trudeau",
+    "old_doc_date": "2026-07-13",
+    "new_doc_date": "2026-07-13",
+    "has_revision_pair": true,
+    "notes": "Old (2020) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q044",
+    "question": "Who is the Prime Minister of Australia?",
+    "correct_answer": "Anthony Albanese",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Prime Minister of Australia",
+    "old_wrong_answer": "Scott Morrison",
+    "old_doc_date": "2026-06-29",
+    "new_doc_date": "2026-06-29",
+    "has_revision_pair": true,
+    "notes": "Old (2021) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q045",
+    "question": "Who is the Secretary-General of the United Nations?",
+    "correct_answer": "Antonio Guterres",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Secretary-General of the United Nations",
+    "old_wrong_answer": "Ban Ki-moon",
+    "old_doc_date": "2026-07-08",
+    "new_doc_date": "2026-07-08",
+    "has_revision_pair": true,
+    "notes": "Old (2016) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q046",
+    "question": "Who is the President of Brazil?",
+    "correct_answer": "Luiz Inácio Lula da Silva",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "President of Brazil",
+    "old_wrong_answer": "Jair Bolsonaro",
+    "old_doc_date": "2026-06-20",
+    "new_doc_date": "2026-06-20",
+    "has_revision_pair": true,
+    "notes": "Old (2022) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q047",
+    "question": "Who is the CEO of Google?",
+    "correct_answer": "Sundar Pichai",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Sundar Pichai",
+    "old_wrong_answer": "Larry Page",
+    "old_doc_date": "2026-06-27",
+    "new_doc_date": "2026-06-27",
+    "has_revision_pair": true,
+    "notes": "Old (2015) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q048",
+    "question": "Who is the CEO of Microsoft?",
+    "correct_answer": "Satya Nadella",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Satya Nadella",
+    "old_wrong_answer": "Steve Ballmer",
+    "old_doc_date": "2026-07-13",
+    "new_doc_date": "2026-07-13",
+    "has_revision_pair": true,
+    "notes": "Old (2013) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q049",
+    "question": "Who is the CEO of Apple?",
+    "correct_answer": "Tim Cook",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Tim Cook",
+    "old_wrong_answer": "Steve Jobs",
+    "old_doc_date": "2026-06-30",
+    "new_doc_date": "2026-06-30",
+    "has_revision_pair": true,
+    "notes": "Old (2010) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q050",
+    "question": "Who is the CEO of OpenAI?",
+    "correct_answer": "Sam Altman",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "OpenAI",
+    "old_wrong_answer": "Greg Brockman",
+    "old_doc_date": "2026-07-12",
+    "new_doc_date": "2026-07-12",
+    "has_revision_pair": true,
+    "notes": "Old (2023) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q051",
+    "question": "Who is the world number one ranked chess player?",
+    "correct_answer": "Magnus Carlsen",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Magnus Carlsen",
+    "old_wrong_answer": "Viswanathan Anand",
+    "old_doc_date": "2026-07-12",
+    "new_doc_date": "2026-07-12",
+    "has_revision_pair": true,
+    "notes": "Old (2010) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q052",
+    "question": "Who is the world number one men's tennis player?",
+    "correct_answer": "Jannik Sinner",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Jannik Sinner",
+    "old_wrong_answer": "Novak Djokovic",
+    "old_doc_date": "2026-07-14",
+    "new_doc_date": "2026-07-14",
+    "has_revision_pair": true,
+    "notes": "Old (2023) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q053",
+    "question": "Who is the Formula One world champion?",
+    "correct_answer": "Max Verstappen",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "Max Verstappen",
+    "old_wrong_answer": "Lewis Hamilton",
+    "old_doc_date": "2026-07-12",
+    "new_doc_date": "2026-07-12",
+    "has_revision_pair": true,
+    "notes": "Old (2020) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q054",
+    "question": "Who is the current captain of the Indian cricket team?",
+    "correct_answer": "Rohit Sharma",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "India national cricket team",
+    "old_wrong_answer": "Virat Kohli",
+    "old_doc_date": "2026-07-15",
+    "new_doc_date": "2026-07-15",
+    "has_revision_pair": true,
+    "notes": "Old (2020) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q055",
+    "question": "Who won the 2023 Cricket World Cup?",
+    "correct_answer": "Australia",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 2,
+    "doc_title": "2023 Cricket World Cup",
+    "old_wrong_answer": "England",
+    "old_doc_date": "2026-06-20",
+    "new_doc_date": "2026-06-20",
+    "has_revision_pair": true,
+    "notes": "Old (2022) has wrong answer. New has correct. Penalty must boost new doc."
+  },
+  {
+    "question_id": "q056",
+    "question": "Who was the Chief Minister of Assam in 2018?",
+    "correct_answer": "Sarbananda Sonowal",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Chief Minister of Assam",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q057",
+    "question": "Who was the Prime Minister of India in 2005?",
+    "correct_answer": "Manmohan Singh",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Manmohan Singh",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q058",
+    "question": "Who was the President of India in 2010?",
+    "correct_answer": "Pratibha Patil",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Pratibha Patil",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q059",
+    "question": "Who was the Chief Minister of West Bengal in 2008?",
+    "correct_answer": "Buddhadeb Bhattacharjee",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Buddhadeb Bhattacharjee",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q060",
+    "question": "Who was the Chief Minister of Tamil Nadu in 2015?",
+    "correct_answer": "Jayalalithaa",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Jayalalithaa",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q061",
+    "question": "Who was the Chief Minister of Karnataka in 2010?",
+    "correct_answer": "B. S. Yediyurappa",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "B. S. Yediyurappa",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q062",
+    "question": "Who was the Chief Minister of Maharashtra in 2009?",
+    "correct_answer": "Ashok Chavan",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Ashok Chavan",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q063",
+    "question": "Who was the Chief Justice of India in 2015?",
+    "correct_answer": "H. L. Dattu",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "H. L. Dattu",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q064",
+    "question": "Who was the Prime Minister of UK in 2010?",
+    "correct_answer": "David Cameron",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "David Cameron",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q065",
+    "question": "Who was the President of USA in 2010?",
+    "correct_answer": "Barack Obama",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Barack Obama",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q066",
+    "question": "Who was the Chancellor of Germany in 2010?",
+    "correct_answer": "Angela Merkel",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Angela Merkel",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q067",
+    "question": "Who was the President of France in 2010?",
+    "correct_answer": "Nicolas Sarkozy",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Nicolas Sarkozy",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q068",
+    "question": "Who was the Prime Minister of Canada in 2010?",
+    "correct_answer": "Stephen Harper",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Stephen Harper",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q069",
+    "question": "Who was the Secretary-General of the UN in 2010?",
+    "correct_answer": "Ban Ki-moon",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Ban Ki-moon",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q070",
+    "question": "Who was the CEO of Apple when the iPhone was launched?",
+    "correct_answer": "Steve Jobs",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Steve Jobs",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q071",
+    "question": "Who was the CEO of Microsoft in 2010?",
+    "correct_answer": "Steve Ballmer",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Steve Ballmer",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q072",
+    "question": "Who was the CEO of Google in 2010?",
+    "correct_answer": "Eric Schmidt",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Eric Schmidt",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q073",
+    "question": "Who was the world number one men's tennis player in 2015?",
+    "correct_answer": "Novak Djokovic",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Novak Djokovic",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q074",
+    "question": "Who won the 2011 Cricket World Cup?",
+    "correct_answer": "India",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "2011 Cricket World Cup",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q075",
+    "question": "Who won the 2019 Cricket World Cup?",
+    "correct_answer": "England",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "2019 Cricket World Cup",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q076",
+    "question": "Who won the 2018 FIFA World Cup?",
+    "correct_answer": "France",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "2018 FIFA World Cup",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q077",
+    "question": "Who was the Formula One world champion in 2020?",
+    "correct_answer": "Lewis Hamilton",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Lewis Hamilton",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q078",
+    "question": "Who led India during the 1971 war?",
+    "correct_answer": "Indira Gandhi",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Indira Gandhi",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q079",
+    "question": "Who was the President of USA during World War II?",
+    "correct_answer": "Franklin D. Roosevelt",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Franklin D. Roosevelt",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q080",
+    "question": "Who was the Prime Minister of UK during World War II?",
+    "correct_answer": "Winston Churchill",
+    "true_type": "DYNAMIC_HISTORICAL",
+    "group": 3,
+    "doc_title": "Winston Churchill",
+    "notes": "Past-time question. Penalty must NOT fire."
+  },
+  {
+    "question_id": "q081",
+    "question": "Who heads ISRO?",
+    "correct_answer": "V. Narayanan",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Indian Space Research Organisation",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q082",
+    "question": "Who runs Anthropic?",
+    "correct_answer": "Dario Amodei",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Anthropic",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q083",
+    "question": "Who leads OpenAI?",
+    "correct_answer": "Sam Altman",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "OpenAI",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q084",
+    "question": "Who manages the Indian cricket team?",
+    "correct_answer": "Gautam Gambhir",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "India national cricket team",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q085",
+    "question": "Who is the richest person in the world?",
+    "correct_answer": "Elon Musk",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Elon Musk",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q086",
+    "question": "Who is the world chess champion?",
+    "correct_answer": "Gukesh",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "World Chess Championship 2024",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q087",
+    "question": "Who commands the Indian Army?",
+    "correct_answer": "Upendra Dwivedi",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Indian Army",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q088",
+    "question": "Who is handling the opposition in the Assam assembly?",
+    "correct_answer": "Congress",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Assam Legislative Assembly",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q089",
+    "question": "Who is the governor of the Reserve Bank of India?",
+    "correct_answer": "Sanjay Malhotra",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Reserve Bank of India",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q090",
+    "question": "Who is the chairman of SEBI?",
+    "correct_answer": "Tuhin Kanta Pandey",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Securities and Exchange Board of India",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q091",
+    "question": "Who is the CEO of SpaceX?",
+    "correct_answer": "Elon Musk",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "SpaceX",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q092",
+    "question": "Who is the CEO of Nvidia?",
+    "correct_answer": "Jensen Huang",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Nvidia",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q093",
+    "question": "Who is the CEO of Amazon?",
+    "correct_answer": "Andy Jassy",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Amazon (company)",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q094",
+    "question": "Who is the world number one women's tennis player?",
+    "correct_answer": "Aryna Sabalenka",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Aryna Sabalenka",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q095",
+    "question": "Who is the reigning Wimbledon men's singles champion?",
+    "correct_answer": "Carlos Alcaraz",
+    "true_type": "DYNAMIC_CURRENT",
+    "group": 4,
+    "doc_title": "Carlos Alcaraz",
+    "notes": "No temporal keyword. Tests semantic vs syntactic gate."
+  },
+  {
+    "question_id": "q096",
+    "question": "How does photosynthesis work?",
+    "correct_answer": "chlorophyll",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Photosynthesis",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q097",
+    "question": "What causes earthquakes?",
+    "correct_answer": "tectonic",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Earthquake",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q098",
+    "question": "How do vaccines work?",
+    "correct_answer": "immune",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Vaccine",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q099",
+    "question": "What is DNA made of?",
+    "correct_answer": "nucleotide",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "DNA",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q100",
+    "question": "Why is the sky blue?",
+    "correct_answer": "scattering",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Rayleigh scattering",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q101",
+    "question": "What is the theory of relativity?",
+    "correct_answer": "Einstein",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Theory of relativity",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q102",
+    "question": "How does a black hole form?",
+    "correct_answer": "gravity",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Black hole",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q103",
+    "question": "What is machine learning?",
+    "correct_answer": "algorithm",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Machine learning",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q104",
+    "question": "How does encryption work?",
+    "correct_answer": "key",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Encryption",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  },
+  {
+    "question_id": "q105",
+    "question": "What is the greenhouse effect?",
+    "correct_answer": "atmosphere",
+    "true_type": "STATIC",
+    "group": 5,
+    "doc_title": "Greenhouse effect",
+    "notes": "Purely timeless. Classifier must say STATIC."
+  }
+]
