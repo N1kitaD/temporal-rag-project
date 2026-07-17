@@ -1,0 +1,75 @@
+{
+  "by_type": {
+    "Static (G1+G5)": {
+      "N": 40,
+      "Plain": "75.0%",
+      "Naive Penalty": "72.5%",
+      "Two-Stage": "77.5%",
+      "Oracle": "77.5%"
+    },
+    "Dynamic-Current (G2+G4)": {
+      "N": 40,
+      "Plain": "37.5%",
+      "Naive Penalty": "42.5%",
+      "Two-Stage": "42.5%",
+      "Oracle": "42.5%"
+    },
+    "Dynamic-Historical (G3)": {
+      "N": 25,
+      "Plain": "16.0%",
+      "Naive Penalty": "4.0%",
+      "Two-Stage": "20.0%",
+      "Oracle": "16.0%"
+    },
+    "Overall": {
+      "N": 105,
+      "Plain": "46.7%",
+      "Naive Penalty": "44.8%",
+      "Two-Stage": "50.5%",
+      "Oracle": "49.5%"
+    }
+  },
+  "by_group": {
+    "G1 Static": {
+      "N": 30,
+      "Plain": "76.7%",
+      "Naive Penalty": "73.3%",
+      "Two-Stage": "76.7%",
+      "Oracle": "76.7%"
+    },
+    "G2 Dynamic-Current": {
+      "N": 25,
+      "Plain": "44.0%",
+      "Naive Penalty": "52.0%",
+      "Two-Stage": "52.0%",
+      "Oracle": "52.0%"
+    },
+    "G3 Dynamic-Historical": {
+      "N": 25,
+      "Plain": "16.0%",
+      "Naive Penalty": "4.0%",
+      "Two-Stage": "20.0%",
+      "Oracle": "16.0%"
+    },
+    "G4 Undated-Dynamic": {
+      "N": 15,
+      "Plain": "26.7%",
+      "Naive Penalty": "26.7%",
+      "Two-Stage": "26.7%",
+      "Oracle": "26.7%"
+    },
+    "G5 No-date Control": {
+      "N": 10,
+      "Plain": "70.0%",
+      "Naive Penalty": "70.0%",
+      "Two-Stage": "80.0%",
+      "Oracle": "80.0%"
+    }
+  },
+  "classifier_overall": "98.1%",
+  "classifier_by_type": {
+    "STATIC": "97.5%",
+    "DYNAMIC_CURRENT": "100.0%",
+    "DYNAMIC_HISTORICAL": "96.0%"
+  }
+}
