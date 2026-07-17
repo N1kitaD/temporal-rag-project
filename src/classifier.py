@@ -1,4 +1,5 @@
 import os
+import time  # <-- Added for rate limit sleep delays
 from groq import Groq
 from dotenv import load_dotenv
 
@@ -10,10 +11,6 @@ load_dotenv()
 MODEL = "llama-3.3-70b-versatile"
 
 # ── classification prompt ──────────────────────────────────────────────────
-# Few-shot prompt: gives the model examples of each class before asking it
-# to classify a new question. This is not training — the model already knows
-# language. The examples just show it the exact format and reasoning we want.
-
 CLASSIFY_PROMPT = """You are a query classifier for a question-answering system.
 Classify the question into exactly one of three categories.
 
@@ -56,10 +53,6 @@ No explanation. No punctuation. Just the category word.
 Question: {question}"""
 
 # ── confidence prompt ──────────────────────────────────────────────────────
-# Asks the model how confident it is that this is a DYNAMIC_CURRENT question.
-# This confidence score (0 to 1) is used in Phase 5 to scale the age penalty.
-# High confidence → strong penalty. Low confidence → weak penalty. Zero → no penalty.
-
 CONFIDENCE_PROMPT = """Rate your confidence that the question below requires
 the MOST RECENT information to answer correctly.
 
@@ -86,67 +79,88 @@ def get_client():
 def classify_query(question, client=None):
     """
     Classify a question as STATIC, DYNAMIC_CURRENT, or DYNAMIC_HISTORICAL.
-    Returns the label string.
+    Includes an automatic retry mechanism for rate limits (429).
     """
     if client is None:
         client = get_client()
 
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=[{
-            "role": "user",
-            "content": CLASSIFY_PROMPT.format(question=question)
-        }],
-        max_tokens=10,        # we only need one word back
-        temperature=0,        # temperature=0 means deterministic output
-    )                         # same question always gets same answer
+    for attempt in range(3):   # try up to 3 times
+        try:
+            response = client.chat.completions.create(
+                model=MODEL,
+                messages=[{
+                    "role": "user",
+                    "content": CLASSIFY_PROMPT.format(question=question)
+                }],
+                max_tokens=10,        # we only need one word back
+                temperature=0,        # temperature=0 means deterministic output
+            )                         
 
-    raw = response.choices[0].message.content.strip().upper()
+            raw = response.choices[0].message.content.strip().upper()
 
-    # validate — handle cases where model adds punctuation or extra words
-    valid_labels = {"STATIC", "DYNAMIC_CURRENT", "DYNAMIC_HISTORICAL"}
-    if raw in valid_labels:
-        return raw
+            # validate — handle cases where model adds punctuation or extra words
+            valid_labels = {"STATIC", "DYNAMIC_CURRENT", "DYNAMIC_HISTORICAL"}
+            if raw in valid_labels:
+                return raw
 
-    # partial match fallback
-    for label in valid_labels:
-        if label in raw:
-            return label
+            # partial match fallback
+            for label in valid_labels:
+                if label in raw:
+                    return label
 
-    # safe default: if completely unparseable, treat as static
-    # (better to miss a dynamic question than to wrongly penalize a static one)
-    print(f"  [WARN] Unparseable classifier response: '{raw}' — defaulting to STATIC")
-    return "STATIC"
+            return "STATIC"
+
+        except Exception as e:
+            if "429" in str(e) or "rate" in str(e).lower():
+                wait = 60 * (attempt + 1)   # wait 60s, then 120s, then 180s
+                print(f"  [rate limit] waiting {wait}s before retry...")
+                time.sleep(wait)
+            else:
+                print(f"  [error] {e}")
+                return "STATIC"
+
+    return "STATIC"   # safe default after 3 failed attempts
 
 
 def get_confidence(question, client=None):
     """
     Get a 0-1 confidence score: how sure are we this is DYNAMIC_CURRENT?
-    This drives the adaptive penalty strength in the reranker.
+    Includes an automatic retry mechanism for rate limits (429).
     """
     if client is None:
         client = get_client()
 
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=[{
-            "role": "user",
-            "content": CONFIDENCE_PROMPT.format(question=question)
-        }],
-        max_tokens=10,
-        temperature=0,
-    )
+    for attempt in range(3):   # try up to 3 times
+        try:
+            response = client.chat.completions.create(
+                model=MODEL,
+                messages=[{
+                    "role": "user",
+                    "content": CONFIDENCE_PROMPT.format(question=question)
+                }],
+                max_tokens=10,
+                temperature=0,
+            )
 
-    raw = response.choices[0].message.content.strip()
+            raw = response.choices[0].message.content.strip()
 
-    try:
-        score = float(raw)
-        # clamp to valid range just in case
-        return max(0.0, min(1.0, score))
-    except ValueError:
-        # if model returns something unparseable, use 0.5 (uncertain)
-        print(f"  [WARN] Unparseable confidence response: '{raw}' — defaulting to 0.5")
-        return 0.5
+            try:
+                score = float(raw)
+                return max(0.0, min(1.0, score))
+            except ValueError:
+                print(f"  [WARN] Unparseable confidence response: '{raw}' — defaulting to 0.5")
+                return 0.5
+
+        except Exception as e:
+            if "429" in str(e) or "rate" in str(e).lower():
+                wait = 60 * (attempt + 1)   # wait 60s, then 120s, then 180s
+                print(f"  [rate limit] waiting {wait}s before retry...")
+                time.sleep(wait)
+            else:
+                print(f"  [error] {e}")
+                return 0.5
+
+    return 0.5  # safe default after 3 failed attempts
 
 
 def classify_with_confidence(question, client=None):
@@ -171,7 +185,6 @@ def test_classifier():
     client = get_client()
 
     test_cases = [
-        # (question, expected_label)
         ("What is the boiling point of water?",              "STATIC"),
         ("When did India gain independence?",                 "STATIC"),
         ("What is the Pythagorean theorem?",                  "STATIC"),
